@@ -1,0 +1,27 @@
+{
+  "name": "plotpulse-backend",
+  "version": "1.0.0",
+  "description": "Backend for PlotPulse novel generation platform",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "keywords": ["novel", "ai", "generation", "epub"],
+  "author": "",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.30.0",
+    "archiver": "^7.0.1",
+    "better-sqlite3": "^11.8.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-rate-limit": "^7.4.2",
+    "helmet": "^8.0.0",
+    "openai": "^4.73.0",
+    "socket.io": "^4.8.1",
+    "uuid": "^11.0.4"
+  }
+}
